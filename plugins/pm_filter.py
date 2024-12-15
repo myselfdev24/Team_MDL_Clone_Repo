@@ -2217,15 +2217,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "shortlink_info":
         btn = [[
-            InlineKeyboardButton("👇Select Your Language 👇", callback_data="laninfo")
+            InlineKeyboardButton("❤️ Share And Support ❤️", callback_data="laninfo")
         ],[
-            InlineKeyboardButton("Main Channel", url="https://t.me/Team_MDL")
+            InlineKeyboardButton("✨ Main Channel ✨", url="https://t.me/Team_MDL")
         ],[
-            InlineKeyboardButton("Chutti TV", url="https://t.me/chutti_TV_Tamil_HD"),
-            InlineKeyboardButton("Anime Rips", url="https://t.me/+p039cDOT9VFjMWQ9")
+            InlineKeyboardButton("💐 Chutti TV 💐", url="https://t.me/chutti_TV_Tamil_HD"),
+            InlineKeyboardButton("〽️ Anime Rips 〽️", url="https://t.me/+p039cDOT9VFjMWQ9")
         ],[
-            InlineKeyboardButton("Marvel Dude", url="https://t.me/MarvelDude"),
-            InlineKeyboardButton("DC-Movie Tamil", url="https://t.me/+pZu82Pr5nsQzMDk1")
+            InlineKeyboardButton("🔥 Marvel ~ Movies 🔥", url="https://t.me/MarvelDude"),
+            InlineKeyboardButton("⚡️ DC ~ Movies ⚡️", url="https://t.me/+pZu82Pr5nsQzMDk1")
         ],[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
         ]]
