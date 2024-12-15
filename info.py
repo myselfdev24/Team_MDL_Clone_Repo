@@ -17,7 +17,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6869343193:AAGmZwghTCbQDegYTkY5KYplT-1QCfl
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/9acca333738f41eba89f8.jpg')).split()
 
 
 # Admins & Users
@@ -88,9 +88,9 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+KAjYvbNDdKhlYmE1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Team_MDL')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Team_MDL_Admin_bot') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Team_MDL_Admin_bot')
 
 # True Or False
