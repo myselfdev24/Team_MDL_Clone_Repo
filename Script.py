@@ -223,7 +223,9 @@ Nᴀᴍᴇ - {}"""
 
     SHORTLINK_INFO = """
 
-<blockquote>🔰 Join Over Main Channel🔰</blockquote>"""
+<b><blockquote>🔰 Join Over Main Channel🔰</blockquote></b>
+
+<b>🥀 Admin => @Team_MDL_Admin_Bot </b>"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
