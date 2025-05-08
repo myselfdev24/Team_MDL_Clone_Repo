@@ -1984,7 +1984,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', url="https://instantearn.in/oTlp")
+            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', url="https://tnseries.com/18QlSlT")
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
@@ -2221,7 +2221,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton("✨ Main Channel ✨", url="https://t.me/Team_MDL")
         ],[
-            InlineKeyboardButton("💐 Chutti TV 💐", url="https://t.me/chutti_TV_Tamil_HD"),
+            InlineKeyboardButton("💐 Chutti TV 💐", url="https://t.me/+DLfSFrRqcCszMTY1"),
             InlineKeyboardButton("〽️ Anime Rips 〽️", url="https://t.me/+p039cDOT9VFjMWQ9")
         ],[
             InlineKeyboardButton("🔥 Marvel ~ Movies 🔥", url="https://t.me/MarvelDude"),
