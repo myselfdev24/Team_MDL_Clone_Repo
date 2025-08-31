@@ -1984,7 +1984,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', url="https://tnseries.com/18QlSlT")
+            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', url="https://gplinks.co/1RFf45")
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
@@ -2222,10 +2222,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("✨ Main Channel ✨", url="https://t.me/Team_MDL")
         ],[
             InlineKeyboardButton("💐 Cartoon Worlds Tamil 💐", url="https://t.me/+9Or0-E6FcMYzYWU9"),
-            InlineKeyboardButton("〽️ Anime Rips 〽️", url="https://t.me/+AS8eM2FORaFlYWE1")
+            InlineKeyboardButton("〽️ Anime Rips 〽️", url="https://t.me/AnimeDudeTamil")
         ],[
             InlineKeyboardButton("🔥 Marvel ~ Movies 🔥", url="https://t.me/+CsuUbnF1LwU3ODNl"),
             InlineKeyboardButton("⚡️ DC ~ Movies ⚡️", url="https://t.me/+y2sGmxqRhAAxYzFl")
+        ],[
+            InlineKeyboardButton("😁 HollyWood ~ Movies 😁", url="https://t.me/+U2YiCmiPKKYzYjVl"),
+            InlineKeyboardButton("🗂 Movies DB Channel 🗂", url="https://t.me/+G5sbrdaoIs83Mzg1")
         ],[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
         ]]
@@ -3309,3 +3312,4 @@ async def global_filters(client, message, text=False):
                 break
     else:
         return False
+
