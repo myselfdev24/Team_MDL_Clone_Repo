@@ -125,9 +125,9 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '0e8a86b9c1c70a8ee2593d491983f077446b9695')
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'liteshort.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '15a0420fde999e67f17338345cd1a234b222d646')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/demoshorts') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
@@ -196,3 +196,4 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
