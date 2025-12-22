@@ -41,7 +41,7 @@ auth_channel = environ.get('AUTH_CHANNEL', '-1002268015162 -1002280011994') # gi
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 
 # This Channel Is For When User Request File With command or hashtag like - /request or #request
-reqst_channel = environ.get('REQST_CHANNEL_ID', '')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001888591958')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 
 # This Is Your Bot Support Group Id , Here Bot Will Not Give File Because This Is Support Group.
@@ -88,7 +88,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+KAjYvbNDdKhlYmE1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+L2l7ngBSY543YmRl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Team_MDL')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Team_MDL_Admin_bot') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Team_MDL_Admin_bot')
@@ -125,7 +125,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'liteshort.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '15a0420fde999e67f17338345cd1a234b222d646')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/demoshorts') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
@@ -196,6 +196,7 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
