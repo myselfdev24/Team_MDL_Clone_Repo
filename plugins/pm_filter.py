@@ -2221,11 +2221,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton("✨ Main Channel ✨", url="https://t.me/Team_MDL")
         ],[
-            InlineKeyboardButton("💐 Cartoon Worlds Tamil 💐", url="https://t.me/+9Or0-E6FcMYzYWU9"),
+            InlineKeyboardButton("💐 Cartoon Worlds Tamil 💐", url="https://t.me/CartoonWorldsTamil"),
             InlineKeyboardButton("〽️ Anime Rips 〽️", url="https://t.me/AnimeDudeTamil")
         ],[
-            InlineKeyboardButton("🔥 Marvel ~ Movies 🔥", url="https://t.me/+CsuUbnF1LwU3ODNl"),
-            InlineKeyboardButton("⚡️ DC ~ Movies ⚡️", url="https://t.me/+y2sGmxqRhAAxYzFl")
+            InlineKeyboardButton("🔥 Marvel ~ Movies 🔥", url="https://t.me/+TW6-NOuipNxiNjU1"),
+            InlineKeyboardButton("⚡️ DC ~ Movies ⚡️", url="https://t.me/+Wx9-MHZ4uUgxMDJl")
         ],[
             InlineKeyboardButton("😁 HollyWood ~ Movies 😁", url="https://t.me/+U2YiCmiPKKYzYjVl"),
             InlineKeyboardButton("🗂 Movies DB Channel 🗂", url="https://t.me/+G5sbrdaoIs83Mzg1")
